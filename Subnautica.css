@@ -1,0 +1,96 @@
+Subnautica.html
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #004f75, #001f3f);
+    color: #b62626;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #ff0000;
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+nav {
+    background-color: #003f5f;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+    color: #bb1c1c;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #112dcc;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #2015c0;
+    text-shadow: 1px 1px 4px rgba(224, 40, 40, 0.7);
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+footer {
+    background-color: #002a3a;
+    color: #aaaaaa;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+button {
+    background-color: #ffcc00;
+    color: #003f5f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #ffc107;
+    transform: scale(1.05);
+}
